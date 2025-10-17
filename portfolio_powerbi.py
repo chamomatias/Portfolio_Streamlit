@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # -------------------------------------------------------------
-# ESTILO GLOBAL DE TEMA OSCURO + HOVER EN IMÁGENES
+# ESTILO GLOBAL DE TEMA OSCURO + HOVER RÁPIDO
 # -------------------------------------------------------------
 st.markdown("""
 <style>
@@ -32,17 +32,26 @@ div.stMarkdown {
     line-height: 1.5;
 }
 
-/* Hover suave en portadas de proyectos */
+/* Hover rápido en portadas de proyectos */
 .proyecto-img {
     border-radius:15px;
     overflow:hidden;
     box-shadow:0px 4px 15px rgba(255,255,255,0.15);
-    transition: transform 0.05s, box-shadow 0.05s;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .proyecto-img:hover {
     transform: scale(1.03);
     box-shadow: 0px 8px 25px rgba(255,255,255,0.25);
+}
+
+/* Hover rápido en logo de LinkedIn */
+.linkedin-logo {
+    transition: transform 0.25s ease;
+}
+
+.linkedin-logo:hover {
+    transform: scale(1.1);
 }
 </style>
 """, unsafe_allow_html=True)
@@ -179,10 +188,8 @@ if os.path.exists(linkedin_logo_path):
     <div style="text-align:center; margin-top:10px; color:{texto_color};">
         <p style="font-size:16px; font-weight:500; margin-bottom:8px; color:{texto_color};">Contactame:</p>
         <a href="{linkedin_url}" target="_blank">
-            <img src="data:image/png;base64,{linkedin_base64}" 
-                 style="width:40px; height:auto; transition:transform 0.2s;"
-                 onmouseover="this.style.transform='scale(1.15)'"
-                 onmouseout="this.style.transform='scale(1)'">
+            <img class="linkedin-logo" src="data:image/png;base64,{linkedin_base64}" 
+                 style="width:40px; height:auto;">
         </a>
         <p style="font-size:14px; margin-top:8px; color:{texto_color};">© 2025 Matías Chamorro</p>
     </div>
