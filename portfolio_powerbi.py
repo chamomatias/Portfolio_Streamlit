@@ -124,6 +124,17 @@ proyectos = [
         "link": "https://app.powerbi.com/view?r=eyJrIjoiMGNhZGJmYTUtZDA0Mi00MDM5LWI4NTMtMWIyYTE4ZDhiODI1IiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
         "descripcion": """Desarrollo medidas DAX desde nivel básico hasta avanzado, incluyendo cálculos de tiempo completos, con lógica escalable y adaptable a distintos contextos."""
     },
+
+    {
+        "imagen": "img/portada_proyecto_005.png",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTFjNTgxMjUtOWJlZS00ODJjLTlhYmItOGEyOWRjOTdmZGZhIiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
+        "descripcion": """Tableros simples, funcionales y escalables, con medidas DAX desde nivel básico hasta avanzado, incluyendo cálculos de tiempo completos."""
+    },
+
+
+
+
+
     {
         "imagen": "img/portada_proyecto_004.png",
         "link": "https://app.powerbi.com/view?r=eyJrIjoiZTZlYWM2YzUtOTg1MC00ZjU0LTg0YmUtZTE3MzQ0Y2Y3YmFlIiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
