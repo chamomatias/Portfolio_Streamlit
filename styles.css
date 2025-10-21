@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Fondo oscuro */
+[data-testid="stAppViewContainer"] {
+    background-color: #121212;
+}
+
+/* Color de texto claro en toda la app */
+body, .css-1d391kg, .css-10trblm, .css-ffhzg2 {
+    color: #F5F5F5;
+}
+
+/* Legibilidad de markdown */
+div.stMarkdown {
+    color: #F5F5F5;
+    line-height: 1.5;
+}
+
+/* Hover rápido en portadas de proyectos */
+.proyecto-img {
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0px 4px 15px rgba(255,255,255,0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.proyecto-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 25px rgba(255,255,255,0.25);
+}
+
+/* Hover rápido en logo de LinkedIn */
+.linkedin-logo {
+    transition: transform 0.25s ease;
+}
+
+.linkedin-logo:hover {
+    transform: scale(1.1);
+}
+
+/* Hover rápido en banderas */
+.flag {
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: transform 0.25s ease;
+}
+
+.flag:hover {
+    transform: scale(1.2);
+}
