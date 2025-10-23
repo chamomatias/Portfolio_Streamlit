@@ -121,6 +121,10 @@ st.write("---")
 linkedin_logo_path = "img/logo_linkedin.png"
 linkedin_url = "https://www.linkedin.com/in/m-chamorro/"
 
+# Información de contacto
+email = "chamomatias@gmail.com"
+telefono = "+54 9 2657 23-2257"
+
 if os.path.exists(linkedin_logo_path):
     linkedin_base64 = get_base64(linkedin_logo_path)
     st.markdown(f"""
@@ -129,6 +133,7 @@ if os.path.exists(linkedin_logo_path):
         <a href="{linkedin_url}" target="_blank">
             <img class="linkedin-logo" src="data:image/png;base64,{linkedin_base64}" style="width:40px; height:auto;">
         </a>
+        <p style="font-size:14px; margin-top:8px; color:{texto_color};">Correo: {email} | Teléfono: {telefono}</p>
         <p style="font-size:14px; margin-top:8px; color:{texto_color};">© 2025 Matías Chamorro</p>
     </div>
     """, unsafe_allow_html=True)
