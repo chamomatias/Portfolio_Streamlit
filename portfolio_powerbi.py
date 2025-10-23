@@ -15,8 +15,11 @@ st.set_page_config(
 # -------------------------------------------------------------
 # CARGAR ESTILOS CSS
 # -------------------------------------------------------------
-with open("styles.css") as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+if os.path.exists("styles.css"):
+    with open("styles.css") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+else:
+    st.warning("No se encontró el archivo styles.css")
 
 # Color uniforme para todas las fuentes
 texto_color = "#F5F5F5"
@@ -63,25 +66,16 @@ def mostrar_proyecto_tarjeta(desc, imagen_local, link):
 # -------------------------------------------------------------
 # SELECCIÓN DE IDIOMA
 # -------------------------------------------------------------
-st.sidebar.markdown("### Language / Idioma")
-col1, col2 = st.sidebar.columns([1,1])
-
-with col1:
-    if st.button("🇬🇧"):
-        lang = "en"
-with col2:
-    if st.button("🇪🇸"):
-        lang = "es"
-
-# Default
 if "lang" not in st.session_state:
     st.session_state["lang"] = "en"
 
-# Actualizar idioma si se clickea
-try:
-    st.session_state["lang"] = lang
-except:
-    pass
+col1, col2 = st.sidebar.columns(2)
+with col1:
+    if st.button("English"):
+        st.session_state["lang"] = "en"
+with col2:
+    if st.button("Español"):
+        st.session_state["lang"] = "es"
 
 lang = st.session_state["lang"]
 
