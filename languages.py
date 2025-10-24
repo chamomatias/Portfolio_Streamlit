@@ -76,14 +76,14 @@ language_dict = {
                 "es": "Desarrollé dashboards personalizados adaptados a requerimientos específicos y necesidades analíticas ad-hoc, asegurando una interpretación intuitiva de los datos."
             }
         },
-        {
-            "image": "img/portada_proyecto_009.png",
-            "link": "https://app.powerbi.com/view?r=eyJrIjoiMDUxNDBlYzctNjhmMC00ZjMxLWExMWItNzYyNzNiNDlkZmU2IiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
-            "description": {
-                "en": "I develop simple and functional dashboards.",
-                "es": "Desarrollo tableros simples y funcionales."
-            }
-        }
+#        {
+#           "image": "img/portada_proyecto_009.png",
+#            "link": "https://app.powerbi.com/view?r=eyJrIjoiMDUxNDBlYzctNjhmMC00ZjMxLWExMWItNzYyNzNiNDlkZmU2IiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
+#            "description": {
+#                "en": "I develop simple and functional dashboards.",
+#                "es": "Desarrollo tableros simples y funcionales."
+#            }
+#        }
     ],
 
     "tools_header": {
