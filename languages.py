@@ -68,6 +68,26 @@ language_dict = {
                 "es": "Construí dashboards dinámicos orientados al seguimiento del rendimiento, combinando interactividad, automatización y claridad visual."
             }
         },
+
+
+        {
+            "image": "img/portada_proyecto_010.png",
+            "link": "https://app.powerbi.com/view?r=eyJrIjoiYzUyMDdmNmUtY2Y1Yy00YzY2LWJmZDQtZGIyMTQyYjQ1OTJmIiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
+            "description": {
+                "en": "The user needed a tool to track various requirements. To achieve this, DAX measures were developed that defined the analysis options, and through data slicers, the user is allowed to explore the information and resolve their queries interactively.",
+                "es": "El usuario necesitaba una herramienta para realizar el seguimiento de diversos requisitos. Para ello, se desarrollaron medidas DAX que definieron las opciones de análisis y, mediante segmentadores de datos, se le permite al usuario explorar la información y resolver sus consultas de forma interactiva."
+            }
+        },
+
+
+
+
+
+
+
+
+
+
         {
             "image": "img/portada_proyecto_003.png",
             "link": "https://app.powerbi.com/view?r=eyJrIjoiNDA5NmQzY2UtYTY3ZS00ZDFmLWJkOTYtMTMyOTM5MGYyOTlmIiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
