@@ -15,14 +15,21 @@ language_dict = {
 
 
     "projects": [
+
         {
-            "image": "img/portada_proyecto_001.png",
-            "link": "https://app.powerbi.com/view?r=eyJrIjoiZWM0OGViZDQtNWQyZS00YmRlLWJmZmYtOTAxZDgwNDQ5ZDFkIiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
+            "image": "img/portada_proyecto_012.png",
+            "link": "https://app.powerbi.com/view?r=eyJrIjoiMjMwYWZhNmMtNmE0NS00YzNiLTgxOTgtMDkxYzlkZDQ1ZGYyIiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
             "description": {
-                "en": "Designed an integrated Power BI dashboard enabling drill-down from strategic KPIs to detailed metrics. It supports dynamic filters by areas, categories, and periods, delivering a seamless analytical experience.",
-                "es": "Diseñé un dashboard integrado en Power BI que permite profundizar desde KPIs estratégicos hasta métricas detalladas. Incluye filtros dinámicos por áreas, categorías y períodos, brindando una experiencia analítica fluida."
+                "en": "Developed advanced DAX measures for time intelligence and multi-layered calculations, ensuring scalability across diverse datasets.",
+                "es": "Desarrollé medidas DAX avanzadas para inteligencia temporal y cálculos multinivel, garantizando escalabilidad en distintos datasets."
             }
         },
+
+
+
+
+
+
 
         {
             "image": "img/portada_proyecto_011.png",
@@ -87,6 +94,18 @@ language_dict = {
                 "es": "Construí dashboards dinámicos orientados al seguimiento del rendimiento, combinando interactividad, automatización y claridad visual."
             }
         },
+
+
+        {
+            "image": "img/portada_proyecto_001.png",
+            "link": "https://app.powerbi.com/view?r=eyJrIjoiZWM0OGViZDQtNWQyZS00YmRlLWJmZmYtOTAxZDgwNDQ5ZDFkIiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
+            "description": {
+                "en": "Designed an integrated Power BI dashboard enabling drill-down from strategic KPIs to detailed metrics. It supports dynamic filters by areas, categories, and periods, delivering a seamless analytical experience.",
+                "es": "Diseñé un dashboard integrado en Power BI que permite profundizar desde KPIs estratégicos hasta métricas detalladas. Incluye filtros dinámicos por áreas, categorías y períodos, brindando una experiencia analítica fluida."
+            }
+        },
+
+
 
 
         {
