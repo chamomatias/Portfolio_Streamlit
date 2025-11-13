@@ -18,7 +18,7 @@ language_dict = {
 
         {
             "image": "img/portada_proyecto_012.png",
-            "link": "https://app.powerbi.com/view?r=eyJrIjoiMjMwYWZhNmMtNmE0NS00YzNiLTgxOTgtMDkxYzlkZDQ1ZGYyIiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
+            "link": "https://app.powerbi.com/view?r=eyJrIjoiNjcxYzEwNjgtYWQwMC00OTcyLTliZDMtMGRlZGNlZWZmNDg0IiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
             "description": {
                 "en": "Developed advanced DAX measures for time intelligence and multi-layered calculations, ensuring scalability across diverse datasets.",
                 "es": "Desarrollé medidas DAX avanzadas para inteligencia temporal y cálculos multinivel, garantizando escalabilidad en distintos datasets."
