@@ -11,6 +11,9 @@ language_dict = {
         "es": "Desarrollo dashboards funcionales y escalables, combinando visión estratégica y análisis operativo."
     },
 
+
+
+
     "projects": [
         {
             "image": "img/portada_proyecto_001.png",
@@ -20,6 +23,22 @@ language_dict = {
                 "es": "Diseñé un dashboard integrado en Power BI que permite profundizar desde KPIs estratégicos hasta métricas detalladas. Incluye filtros dinámicos por áreas, categorías y períodos, brindando una experiencia analítica fluida."
             }
         },
+
+        {
+            "image": "img/portada_proyecto_011.png",
+            "link": "https://app.powerbi.com/view?r=eyJrIjoiMjMwYWZhNmMtNmE0NS00YzNiLTgxOTgtMDkxYzlkZDQ1ZGYyIiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
+            "description": {
+                "en": "Developed advanced DAX measures for time intelligence and multi-layered calculations, ensuring scalability across diverse datasets.",
+                "es": "Desarrollé medidas DAX avanzadas para inteligencia temporal y cálculos multinivel, garantizando escalabilidad en distintos datasets."
+            }
+        },
+
+
+
+
+
+
+
         {
             "image": "img/portada_proyecto_002.png",
             "link": "https://app.powerbi.com/view?r=eyJrIjoiMGNhZGJmYTUtZDA0Mi00MDM5LWI4NTMtMWIyYTE4ZDhiODI1IiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
