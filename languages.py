@@ -37,6 +37,44 @@ language_dict = {
                 LANGUAGES["SPANISH"]: "Dashboard integral de seguimiento de órdenes de compra aprobadas con análisis de desempeño interanual. Monitorea en tiempo real montos acumulados (USD 48M), mostrando una disminución del 33.2% frente al año anterior. Incluye desgloses detallados por categorías de productos y distribución por depósitos, con análisis temporal por meses y semanas para insights estratégicos de compras."
             }
         },
+
+
+        {
+            "title": {
+                LANGUAGES["ENGLISH"]: "Material Purchases",
+                LANGUAGES["SPANISH"]: "Compras de materiales"
+            },
+            "image": "img/portada_proyecto_013_CompraDeInsumos.png",
+            "link": "https://app.powerbi.com/view?r=eyJrIjoiNWM2MTdmMDYtNTEwMy00NjRjLWI3NWYtNzExYzFhOWViNmE0IiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
+            "description": {
+                LANGUAGES["ENGLISH"]: "Dashboard focused on the comprehensive analysis of material purchases. It provides insights into acquisition trends, approved order volumes, spending levels, and period-over-period variations. Includes breakdowns by product categories, warehouses, and time evolution to support more strategic procurement decisions.",
+                LANGUAGES["SPANISH"]: "Tablero orientado al análisis integral de las compras de materiales. Permite visualizar tendencias de adquisición, volúmenes aprobados, niveles de gasto y variaciones entre períodos. Incluye desglose por categorías, depósitos y evolución temporal para respaldar decisiones de abastecimiento más estratégicas."
+            }
+        },
+
+        {
+            "title": {
+                LANGUAGES["ENGLISH"]: "Consumption – Receipts – Stocks",
+                LANGUAGES["SPANISH"]: "Consumos-Recepciones-Stocks"
+            },
+            "image": "img/portada_proyecto_014_Consumo - Recepciones - Stocks.png",
+            "link": "https://app.powerbi.com/view?r=eyJrIjoiZDQ0YTJiMDUtNjRkOC00Y2RlLTgzZDUtYWExZTRjNTkxNTg5IiwidCI6IjkxZjVjYjg5LTUyZmUtNDdhYi05MDVmLTRlMzU4ODZmNWE1NyIsImMiOjR9",
+            "description": {
+                LANGUAGES["ENGLISH"]: "Dashboard designed for detailed monitoring of consumption, receipts, and stock levels. It enables the identification of demand patterns, tracking of incoming goods, and evaluation of inventory evolution. Includes comparative analysis across periods, products, and warehouses to optimize operational management.",
+                LANGUAGES["SPANISH"]: "Tablero diseñado para el seguimiento detallado de consumos, recepciones y niveles de stock. Permite identificar patrones de demanda, controlar ingresos de mercadería y evaluar la evolución del inventario. Incluye análisis comparativos por períodos, productos y depósitos para optimizar la gestión operativa."
+            }
+        },
+
+
+
+
+
+
+
+
+
+
+
         {
             "title": {
                 LANGUAGES["ENGLISH"]: "POs/Items Dashboard",

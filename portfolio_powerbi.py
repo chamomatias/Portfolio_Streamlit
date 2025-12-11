@@ -67,7 +67,7 @@ def mostrar_proyecto_tarjeta(desc, imagen_local, link):
 # SELECCIÓN DE IDIOMA
 # -------------------------------------------------------------
 if "lang" not in st.session_state:
-    st.session_state["lang"] = "en"
+    st.session_state["lang"] = "es"
 
 col1, col2 = st.sidebar.columns(2)
 with col1:
